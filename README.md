@@ -29,7 +29,7 @@ gcloud run deploy gdrive-summarizer \
    - **승인 URL 매개변수:** `&access_type=offline&prompt=consent`
    - **토큰 URL:** `https://oauth2.googleapis.com/token`
    - **클라이언트 ID / 비밀번호:** 발급받은 Credential 정보 입력
-   - **범위 (Scopes):** `hhttps://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/drive.readonly`
+   - **범위 (Scopes):** `https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/drive.readonly`
 
 4. **Description** 란에 아래 텍스트를 입력합니다.
    ```text
