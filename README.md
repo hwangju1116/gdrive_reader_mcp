@@ -12,7 +12,8 @@
 gcloud run deploy gdrive-summarizer \
   --source . \
   --region us-central1 \
-  --allow-unauthenticated
+  --allow-unauthenticated \
+  --set-env-vars CLIENT_ID="your-google-client-id"
 ```
 
 > **⚠️ 중요 (보안 및 아키텍처):** 
